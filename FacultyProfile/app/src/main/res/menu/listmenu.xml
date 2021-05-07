@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="example.javatpoint.com.optionmenu.MainActivity">
+    <item  android:id="@+id/item4"
+        android:title="Add to Bookmark"
+        app:showAsAction="withText"/>
+    <item  android:id="@+id/item5"
+        android:title="Remove Bookmark"
+        android:visible="false"
+        app:showAsAction="withText"/>
+</menu>

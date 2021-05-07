@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Faculty Profile</string>
+    <string name="button_ok">OK</string>
+    <string name="internet_connection_failed">No internet connection</string>
+    <string name="loading">Loading..</string>
+    <string-array name="course">
+        <item>FACULTY NAME</item>
+        <item>DEPARTMENT</item>
+        <item>INTERESTS</item>
+    </string-array>
+
+    <string-array name="publication">
+        <item>AREA OF INTEREST</item>
+        <item>PUBLICATIONS</item>
+    </string-array>
+</resources>

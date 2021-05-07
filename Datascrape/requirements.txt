@@ -1,0 +1,6 @@
+arrow
+beautifulsoup4
+bibtexparser
+pysocks
+requests[security]
+firebase_admin
