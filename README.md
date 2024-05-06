@@ -1,36 +1,12 @@
-# SE-Project
+Project Title: **"Data Scraping and Android Faculty Profile App Integration"**
 
-For DataScraping
+**Data Scraping Module (Datascrape):**
+1. Install dependencies by running `pip3 install requirements.txt` inside Datascrape.
+2. Add the complete location of `se-project-bd8e9-firebase-adminsdk-gixw8-0ed577af82.json` to `Runner.py` at line 7.
+3. Execute data scraping by entering the name in `scholar.search_author('Name')` and running `Runner.py`.
 
-
-1.The Scraping module is in Datascrape.
-
-
-2.Run pip3 install requirements.txt inside Datascrape.
-
-
-3.Add complete location of se-project-bd8e9-firebase-adminsdk-gixw8-0ed577af82.json inside Datascrape to your Runner.py at cred = credentials.Certificate("cert")  line 7.
-
-
-4.Just Enter the name in scholar.search_author('Name') and run Runner.py.
-
-
-
-For Android
-
-
-1.The App is in FacultyProfile.
-
-
-2.Put every file in respective folders.
-
-
-3.Every activity should extend baseactivity.
-
-
-4.Register created activity in androidmanifest.xml
-
-
-5.Use colors from color.xml and measurement values in dimens.xml and strings in strings.xml.
-
-
+**Android App Module (FacultyProfile):**
+1. Organize files into respective folders within the FacultyProfile directory.
+2. Ensure every activity extends BaseActivity.
+3. Register created activities in `androidmanifest.xml`.
+4. Utilize colors from `color.xml`, measurement values from `dimens.xml`, and strings from `strings.xml`.
